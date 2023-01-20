@@ -1,0 +1,89 @@
+.navbar.navbar-expand-lg.bg-danger{
+background-color: rgb(197, 0, 0);
+}
+.list-group{
+    --bs-list-group-bg: none
+}
+.list-group{
+    --bs-list-group-border-color: none
+}
+
+
+.fa-brands:hover {
+    --bs-text-opacity: 1;
+    color: #000 !important;
+}
+
+.fa-user:hover {
+    --bs-text-opacity: 1;
+    color: #000 !important;
+}
+.h-10{
+    height: 15%;
+}
+.h-80{
+    height: 80%;
+}
+section.banner{
+background-image:linear-gradient(
+    rgba(255, 0, 0, 0.342), 15%,
+    rgb(0, 0, 0)), url(../img/Portada.png);
+height: 80%;
+width: 100%;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+
+
+}
+h1.intro{
+    font-size: 4rem;
+}
+h3.intro{
+    padding-top: 15%;
+    font-size: xx-large;
+}
+h2.intro{
+    font-size: xx-large;
+}
+.perfil{
+    width: 12%;
+    margin-top: -8em;
+    margin-left: 3em;
+    border: 1rem solid black;
+    position: relative;
+}
+.presentacion{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height: 16rem;
+}
+.list-group-horizontal{
+    margin-left: 50rem;
+}
+.exp{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.subti{
+    font-size: 3rem;
+}
+.card:hover{
+    box-shadow: 5px 50px 20px rgba(0, 0, 0, 0.432);
+    transform: translateY(-3%);
+}
+.proy-bg{
+    background-color: rgb(150, 0, 0);
+}
+section.last-bg{
+    background-image:linear-gradient(
+    rgba(255, 0, 0, 0), 92%,
+    rgb(0, 0, 0))
+}
+section.fst-bg{
+    background-image:linear-gradient(
+        rgb(0, 0, 0), 34%,
+        rgba(0, 0, 0, 0))   
+}
